@@ -1,3 +1,4 @@
+function play(){
 // 1.create a random number
 var randomNumber1 = Math.random()*6;
 randomNumber1 = Math.ceil(randomNumber1);
@@ -21,8 +22,6 @@ if(randomNumber1 > randomNumber2)
 }else{
   document.querySelector("h1").textContent="Draw!"
 }
-// 5.add refresh button
-document.querySelector(".myButton").onclick = function fresh()
-{
-  location.reload();
 }
+// 5.add refresh button
+document.querySelector(".myButton").onclick = play;
