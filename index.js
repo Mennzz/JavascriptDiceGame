@@ -21,3 +21,8 @@ if(randomNumber1 > randomNumber2)
 }else{
   document.querySelector("h1").textContent="Draw!"
 }
+// 5.add refresh button
+document.querySelector(".myButton").onclick = function fresh()
+{
+  location.reload();
+}

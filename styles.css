@@ -1,3 +1,9 @@
+@media (max-width :1024px )
+{
+  body{
+    font-size: 10px;
+  }
+}
 .container {
   width: 70%;
   margin: auto;
@@ -7,7 +13,6 @@
 .dice {
   text-align: center;
   display: inline-block;
-
 }
 
 body {
@@ -15,10 +20,10 @@ body {
 }
 
 h1 {
-  margin: 20px;
+  margin: 10px;
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
-  font-size: 6rem;
+  font-size: 5rem;
   color: #4ECCA3;
 }
 
@@ -33,9 +38,34 @@ img {
 }
 
 footer {
-  margin-top: 5%;
+  margin-top: 2%;
   color: #EEEEEE;
   text-align: center;
   font-family: 'Indie Flower', cursive;
+}
 
+.myButton {
+	box-shadow: 0 0 0 2px #9fb4f2;
+	background: linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	background-color:#7892c2;
+	border-radius:10px;
+	border:1px solid #4e6096;
+	cursor: pointer;
+	color:#ffffff;
+	font-family: 'Indie Flower', cursive;;
+	font-size:1.5rem;
+	padding:5px 15px;
+	text-decoration: none;
+	text-shadow:0 1px 0 #283966;
+  display: block;
+  width: 8%;
+  margin: 5% auto 0;
+}
+.myButton:hover {
+	background: linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}
+.myButton:active {
+	position: relative;
+	top:1px;
 }
